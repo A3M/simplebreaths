@@ -1,0 +1,467 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html {
+    min-height: 100%;
+    font-family: 'Eagle Lake', cursive;
+}
+
+button {
+    color: #FF8000;
+    font-weight: bold;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    color: #FFA200;
+    text-shadow: 0 0 8px #FF8000;
+    border-top: 1px solid #000;
+    border-left: 1px solid #1c1c1c;
+    border-right: 1px solid #363636;
+    border-bottom: 1px solid #474747;
+    -webkit-box-shadow: 0 0px 0px 1px #000;
+    -moz-box-shadow: 0 0px 0px 1px #000;
+    box-shadow: 0 0px 0px 1px #000;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #000 /*{c-body-background-start}*/), to( #3b3b3b /*{c-body-background-end}*/)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient( #000 /*{c-body-background-start}*/, #3b3b3b /*{c-body-background-end}*/); /* Chrome 10+, Saf5.1+ */
+    background-image: -moz-linear-gradient( #000 /*{c-body-background-start}*/, #3b3b3b /*{c-body-background-end}*/); /* FF3.6 */
+    background-image: -ms-linear-gradient( #000 /*{c-body-background-start}*/, #3b3b3b /*{c-body-background-end}*/); /* IE10 */
+    background-image: -o-linear-gradient( #000 /*{c-body-background-start}*/, #3b3b3b /*{c-body-background-end}*/); /* Opera 11.10+ */
+    background-image: linear-gradient( #000 /*{c-body-background-start}*/, #3b3b3b /*{c-body-background-end}*/);
+}
+
+input, select, textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    background:#ffffff url('background.png') repeat right top;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+header {
+    background:#ffffff url('background.png') repeat right top;
+    width: 100%;
+    border-bottom: solid #000 2px;
+    -webkit-box-shadow: 0 0 1px 1px #333333;
+    -moz-box-shadow: 0 0 1px 1px #333333;
+    box-shadow: 0 0 1px 1px #333333;
+}
+
+.header-container {
+    text-align: center;
+    color: #FF8000;
+}
+
+.header-title {
+    text-shadow: 0px 2px 1px #000;
+    margin: 0 auto;
+    width: 50%;
+    line-height: 2.3em;
+    font-size: 2.5em;
+}
+
+.header-button {
+    font-family: 'Eagle Lake', cursive;
+    font-size: 0.9em;
+    text-shadow: 0px 2px 1px #000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1.5em 2em;
+    padding: 0.7em 0.9em;
+    float: right;
+    -webkit-box-shadow: 0 0 1px 1px #000;
+    -moz-box-shadow: 0 0 1px 1px #000;
+    box-shadow: 0 0 1px 1px #000;
+    border-top: 1px solid #737373;
+    border-left: 1px solid #737373;
+    border-right: 1px solid #363636;
+    border-bottom: 1px solid #363636;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #3b3b3b /*{c-body-background-start}*/), to( #000 /*{c-body-background-end}*/)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient( #3b3b3b /*{c-body-background-start}*/, #000 /*{c-body-background-end}*/); /* Chrome 10+, Saf5.1+ */
+    background-image: -moz-linear-gradient( #3b3b3b /*{c-body-background-start}*/, #000 /*{c-body-background-end}*/); /* FF3.6 */
+    background-image: -ms-linear-gradient( #3b3b3b /*{c-body-background-start}*/, #000 /*{c-body-background-end}*/); /* IE10 */
+    background-image: -o-linear-gradient( #3b3b3b /*{c-body-background-start}*/, #000 /*{c-body-background-end}*/); /* Opera 11.10+ */
+    background-image: linear-gradient( #3b3b3b /*{c-body-background-start}*/, #000 /*{c-body-background-end}*/);
+}
+
+#extra-button {
+    float: right;
+}
+
+.main-container {
+    height: 100%;
+}
+
+footer {
+    width: 100%;
+}
+
+.footer-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 1.5em;
+    background:#ffffff url('background.png') repeat right top;
+    border-top: solid #000 2px;
+    -webkit-box-shadow: 0 1px 1px 1px #333333;
+    -moz-box-shadow: 0 1px 1px 1px #333333;
+    box-shadow: 3px 3px 3px 3px #333333;
+}
+
+.footer-button {
+    font-size: 0.9em;
+    font-family: 'Eagle Lake', cursive;
+    text-shadow: 0px 2px 1px #000;
+    margin: 1.3em 2em;
+    padding: 0.7em 0.9em;
+    float: right;
+    -webkit-box-shadow: 0 0 1px 1px #000;
+    -moz-box-shadow: 0 0 1px 1px #000;
+    box-shadow: 0 0 1px 1px #000;
+    border-top: 1px solid #737373;
+    border-left: 1px solid #737373;
+    border-right: 1px solid #363636;
+    border-bottom: 1px solid #363636;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from( #3b3b3b /*{c-body-background-start}*/), to( #000 /*{c-body-background-end}*/)); /* Saf4+, Chrome */
+    background-image: -webkit-linear-gradient( #3b3b3b /*{c-body-background-start}*/, #000 /*{c-body-background-end}*/); /* Chrome 10+, Saf5.1+ */
+    background-image: -moz-linear-gradient( #3b3b3b /*{c-body-background-start}*/, #000 /*{c-body-background-end}*/); /* FF3.6 */
+    background-image: -ms-linear-gradient( #3b3b3b /*{c-body-background-start}*/, #000 /*{c-body-background-end}*/); /* IE10 */
+    background-image: -o-linear-gradient( #3b3b3b /*{c-body-background-start}*/, #000 /*{c-body-background-end}*/); /* Opera 11.10+ */
+    background-image: linear-gradient( #3b3b3b /*{c-body-background-start}*/, #000 /*{c-body-background-end}*/);
+}
+
+/* ===============
+    Dialog Jquery
+   =============== */
+
+.ui-dialog {
+    background: #FF8000;
+    max-width: 99.99%;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 2px solid #DB6E00;
+    -webkit-box-shadow: 1px 1px 2px 1px #000;
+    -moz-box-shadow: 1px 1px 2px 1px #000;
+    box-shadow: 1px 1px 2px 1px #000;
+}
+
+.ui-dialog-content {
+    margin: 0.7em;
+}
+
+.ui-dialog-content a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0px 2px 1px #000;
+}
+
+.ui-dialog-content a:visited {
+    color: #FFF;
+}
+
+.ui-dialog-content a:focus {
+    outline: none;
+}
+
+.ui-dialog-titlebar-close {
+    margin: 0.4em 0.4em 0.5em 0.5em;
+    padding: 0.2em 0.5em;
+    float: right;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    font-size: 1.4em;
+}
+
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    position: relative;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Animation
+   ========================================================================== */
+
+.main-container .oval {
+    position: absolute;
+    bottom: 4.4em;
+    left: 30%;
+    width: 40%;
+    background: #dbdbdb; /* Old browsers */
+    background: -moz-linear-gradient(left, #dbdbdb 0%, #ffffff 50%, #dbdbdb 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#dbdbdb), color-stop(50%,#ffffff), color-stop(100%,#dbdbdb)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #dbdbdb 0%,#ffffff 50%,#dbdbdb 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #dbdbdb 0%,#ffffff 50%,#dbdbdb 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #dbdbdb 0%,#ffffff 50%,#dbdbdb 100%); /* IE10+ */
+    background: linear-gradient(to right, #dbdbdb 0%,#ffffff 50%,#dbdbdb 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', endColorstr='#dbdbdb',GradientType=1 ); /* IE6-9 */
+    border-top: 8px solid #F7F7F7;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #BABABA;
+    border-radius: 90px / 10px;
+    -moz-border-radius: 90px / 10px;
+    -webkit-border-radius: 90px / 10px;
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:0;
+    -moz-border-bottom-right-radius:0;
+    -webkit-border-bottom-left-radius: 0;
+    animation: move 12s infinite;
+    -webkit-animation: move 12s infinite; /* Safari and Chrome */
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+@keyframes move {
+    0%, 100% { height: 1.3em; }
+    50%   { height: 65%; }
+}
+
+@-webkit-keyframes move {
+    0%, 100% { height: 1.3em; }
+    50%   { height: 65%; }
+}
+
+@-moz-keyframes move {
+    0%, 100% { height:1.3em; }
+    50%   { height: 65%; }
+}
+
+@-o-keyframes move {
+    0%, 100% { height: 1.3em; }
+    50%   { height: 65%; }
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (max-width: 877px) {
+
+/* =================
+    Smaller devices
+   ================= */
+
+.header-title {
+    margin: 0 auto;
+    width: 60%;
+    line-height: 3.6em;
+    font-size: 1.6em;
+    float: left;
+}
+}
+
+@media only screen and (max-width: 481px) {
+
+/* =================
+    Small devices
+   ================= */
+
+.header-title {
+    margin: 0.6em;
+    width: 40%;
+    line-height: 1.8em;
+    font-size: 1.2em;
+    float: left;
+    text-align: left;
+}
+
+.main-container .oval {
+    position: absolute;
+    bottom: 4.4em;
+    left: 10%;
+    width: 80%;
+    background: #dbdbdb; /* Old browsers */
+    background: -moz-linear-gradient(left, #dbdbdb 0%, #ffffff 50%, #dbdbdb 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#dbdbdb), color-stop(50%,#ffffff), color-stop(100%,#dbdbdb)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #dbdbdb 0%,#ffffff 50%,#dbdbdb 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #dbdbdb 0%,#ffffff 50%,#dbdbdb 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #dbdbdb 0%,#ffffff 50%,#dbdbdb 100%); /* IE10+ */
+    background: linear-gradient(to right, #dbdbdb 0%,#ffffff 50%,#dbdbdb 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', endColorstr='#dbdbdb',GradientType=1 ); /* IE6-9 */
+    border-top: 8px solid #F7F7F7;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #BABABA;
+    border-radius: 90px / 10px;
+    -moz-border-radius: 90px / 10px;
+    -webkit-border-radius: 90px / 10px;
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:0;
+    -moz-border-bottom-right-radius:0;
+    -webkit-border-bottom-left-radius: 0;
+    animation: move 12s infinite;
+    -webkit-animation: move 12s infinite; /* Safari and Chrome */
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+@keyframes move {
+    0%, 100% { height: 1.3em; }
+    50%   { height: 62%; }
+}
+
+@-webkit-keyframes move {
+    0%, 100% { height: 1.3em; }
+    50%   { height: 62%; }
+}
+
+@-moz-keyframes move {
+    0%, 100% { height:1.3em; }
+    50%   { height: 62%; }
+}
+
+@-o-keyframes move {
+    0%, 100% { height: 1.3em; }
+    50%   { height: 62%; }
+}
+
+
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
