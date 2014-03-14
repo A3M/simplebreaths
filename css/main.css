@@ -280,7 +280,6 @@ footer {
     background: -o-linear-gradient(left, #dbdbdb 0%,#ffffff 50%,#dbdbdb 100%); /* Opera 11.10+ */
     background: -ms-linear-gradient(left, #dbdbdb 0%,#ffffff 50%,#dbdbdb 100%); /* IE10+ */
     background: linear-gradient(to right, #dbdbdb 0%,#ffffff 50%,#dbdbdb 100%); /* W3C */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbdbdb', endColorstr='#dbdbdb',GradientType=1 ); /* IE6-9 */
     border-top: 8px solid #F7F7F7;
     border-left: 1px solid #fff;
     border-right: 1px solid #BABABA;
