@@ -372,12 +372,11 @@ footer {
     0%, 100% { height: 1.3em; }
     50%   { height: 62%; }
 }
+}
 
 /* =================
     Clear fixes
    ================= */
-
-}
 
 .clearfix:before,
 .clearfix:after {
