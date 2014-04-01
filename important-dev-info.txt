@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/3965495/creating-dynamic-previous-next-buttons-in-jquery-ui-dialog
