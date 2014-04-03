@@ -167,6 +167,12 @@ footer {
     -webkit-box-shadow: 1px 1px 2px 1px #000;
     -moz-box-shadow: 1px 1px 2px 1px #000;
     box-shadow: 1px 1px 2px 1px #000;
+    position: absolute;
+    top:0;
+}
+
+.ui-button-text {
+    display: none;
 }
 
 .ui-dialog-content {
@@ -190,17 +196,25 @@ footer {
 
 .ui-dialog-titlebar-close {
     margin: 0.4em 0.4em 0.5em 0.5em;
-    padding: 0.2em 0.5em;
+    padding: 0.7em;
     float: right;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
-    border-top: 2px solid #5F6255;
+   /* border-top: 2px solid #5F6255;
     border-left: 2px solid #5F6255;
     border-bottom: 2px solid #3B3B3B;
-    border-right: 2px solid #3B3B3B;
+    border-right: 2px solid #3B3B3B; */
+    border: none;
     font-size: 1.4em;
-    background-color: black;
+    background: #FF8000 url('cross.png') center;
+}
+
+.ui-dialog-titlebar-close:active {
+    border:none;
+    background: #FF8000;
+    text-shadow: none;
+    box-shadow: none;
 }
 
 
